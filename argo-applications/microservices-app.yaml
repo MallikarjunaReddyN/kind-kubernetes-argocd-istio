@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/MallikarjunaReddyN/kind-kubernetes-argocd-istio.git
     targetRevision: main
-    path: microservices-apps
+    path: argo-applications/microservices-apps
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
